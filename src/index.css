@@ -1,0 +1,13 @@
+body {
+  display: grid;
+  place-content: center;
+  padding: 2rem 0rem 2rem 0rem;
+  background-color: rgb(67, 105, 148, 0.5);
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 4rem 0rem 4rem 0rem;
+  }
+}
